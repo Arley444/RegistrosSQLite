@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.registrossql.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#99000000">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logoinicio"
+            android:layout_marginBottom="70dp"/>
+
+        <Button
+            android:id="@+id/btnIrIniciarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_redondeado_whiter"
+            android:elevation="5dp"
+            android:text="INICIAR SESIÓN"
+            android:textColor="#403f3f"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btnIrRegistrarse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_redondeado_whiter"
+            android:elevation="5dp"
+            android:text="REGISTRARSE"
+            android:textColor="#403f3f"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/btnSalirAplicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_redondeado_whiter"
+            android:elevation="5dp"
+            android:text="SALIR"
+            android:textColor="#403f3f"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

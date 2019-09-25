@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\Andro
 		INJECTED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\HP\.android\build-cache\e78b27d4feee4fc2f3879b85d0135acf7cb29a00\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\HP\.android\build-cache\3667cf9d3263f62e5c9689d08d220ffce23200e7\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\HP\.android\build-cache\281ad2ffa66fc616c5b86acc3af3822189609443\output\AndroidManifest.xml:29:5-20
@@ -60,9 +60,17 @@ ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml:20:19-51
 activity#com.example.hp.registrossql.Inicio
-ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml:21:9-53
+ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml:21:9-44
 	android:name
 		ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml:21:19-41
+activity#com.example.hp.registrossql.CrearCliente
+ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml:22:9-50
+	android:name
+		ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml:22:19-47
+activity#com.example.hp.registrossql.ListaClientes
+ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml:23:9-60
+	android:name
+		ADDED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml:23:19-48
 uses-sdk
 INJECTED from C:\Users\HP\Desktop\Proyectos_Android\RegistrosSQL\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\HP\.android\build-cache\e78b27d4feee4fc2f3879b85d0135acf7cb29a00\output\AndroidManifest.xml:21:5-23:78
